@@ -135,7 +135,7 @@ public class PracticeWithVariables {
 		subtotal = 3*x+4*y+2*z;
 		totalSale = subtotal+subtotal*SALES_TAX;
 		
-		System.out.println(String.format("$" + "%.2f", totalSale));
-
+		System.out.println(String.format("Your total today is $" + "%.2f", totalSale));
+		System.out.printf("Your total today is %.2f. Thanks, see you soon!", totalSale);
 	}
 }
