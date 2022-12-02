@@ -37,6 +37,7 @@ public class PracticeWithBitwiseAndOr {
 	private static void calcPrefixPostfix() {
 		
 		int x = 0;
+<<<<<<< HEAD
 		
 		System.out.println("x starts at " + x);
 				
@@ -54,6 +55,22 @@ public class PracticeWithBitwiseAndOr {
 		System.out.println(x-=1);
 		
 		System.out.println();
+=======
+				
+		System.out.println(x++);
+		
+		System.out.println(x++);
+		
+		System.out.println(++x);
+		
+		System.out.println(x--);
+
+		System.out.println(--x);
+		
+		System.out.println(x+=x);
+		
+		System.out.println(x-=1);
+>>>>>>> 1d0b14b9b7049a25f9c205cd15431b9425f0c0a7
 		
 	}
 	
