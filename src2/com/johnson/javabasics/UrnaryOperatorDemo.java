@@ -1,0 +1,25 @@
+package com.johnson.javabasics;
+
+public class UrnaryOperatorDemo {
+
+	public static void main(String[] args) {
+	       
+		   int sum = +1;
+	       System.out.println(sum);
+
+	       sum--;
+	       System.out.println(sum);
+
+	       sum++;
+	       System.out.println(sum);
+
+	       sum = -sum;
+	       System.out.println(sum);
+
+	       boolean result = false;     
+	       System.out.println(result);
+	       System.out.println(!result);
+	       
+	}
+
+}
